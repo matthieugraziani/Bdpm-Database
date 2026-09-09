@@ -18033,7 +18033,6 @@
 68607455	3012521	plaquette(s) OPA : polyamide orienté aluminium PVC-Aluminium de 30 comprimé(s)	Présentation active	Déclaration de commercialisation	18/04/2018	3400930125212	oui	65%	11,75	12,77	1,02	
 68607455	3012523	plaquette(s) OPA : polyamide orienté aluminium PVC-Aluminium de 90 comprimé(s)	Présentation active	Déclaration de commercialisation	18/04/2018	3400930125236	oui	65%	33,23	35,99	2,76	
 68609125	3004182	plaquette(s) PVC aluminium de 30 comprimé(s)	Présentation active	Déclaration de commercialisation	11/10/2016	3400930041826	oui	65%	467,72	468,74	1,02	
-68610259	3009887	plaquette(s) PVC PVDC aluminium de 30 capsule(s)	Présentation active	Déclaration d'arrêt de commercialisation	10/09/2021	3400930098875	non	30%	7,23	8,25	1,02	
 68613248	3025820	plaquette(s) PVC PVDC aluminium de 30 comprimé(s)	Présentation active	Déclaration de commercialisation	19/12/2023	3400930258200	oui	65 %	3,64	4,66	1,02	
 68613248	3025821	plaquette(s) PVC PVDC aluminium de 90 comprimé(s)	Présentation active	Déclaration de commercialisation	01/08/2023	3400930258217	oui	65%	10,53	13,29	2,76	
 68613700	2742415	plaquette(s) aluminium de 6 comprimé(s)	Présentation active	Déclaration de commercialisation	16/09/2014	3400927424151	oui	65%	6,58	7,60	1,02	
