@@ -203,7 +203,7 @@ python update_bdpm.py
 ### Lancer le dashboard
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ### Lancer l'API

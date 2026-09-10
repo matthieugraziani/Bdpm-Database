@@ -125,7 +125,7 @@ def load_and_process_data():
 
 try:
     df_cis, df_cip, df_compo, df_gener, df = load_and_process_data()
-except Exception as e:
+except (ValueError, sqlite3.DatabaseError, FileNotFoundError, OSError) as e:
     st.error(f"❌ Impossible de charger les données : {e}")
     st.info("💡 Suggestions : Vérifiez que votre script de parsing a bien rempli le fichier 'data/bdpm.db' avec des tables valides.")
     st.stop()
@@ -141,9 +141,9 @@ if meta_file.exists():
         with open(meta_file, encoding="utf-8") as f:
             meta = json.load(f)
         st.sidebar.markdown("### 📊 État du système")
-        st.sidebar.caption(f"**Source :** BDPM Officielle (ANSM)")
+        st.sidebar.caption("**Source :** BDPM Officielle (ANSM)")
         st.sidebar.caption(f"**Version :** {meta.get('version', 'Inconnue')}")
-    except:
+    except (OSError, json.JSONDecodeError, ValueError):
         st.sidebar.warning("⚠️ Erreur de lecture des métadonnées")
 else:
     st.sidebar.warning("⚠️ Métadonnées absolues introuvables")
